@@ -4,9 +4,7 @@ import "./App.css";
 function App() {
   return (
     <div className="App">
-      <div>
-        <h1>Hello Team mates. We are Un4gettable! Remember this.</h1>
-      </div>
+      <h1>Hello Team mates. We are Un4gettable! Remember this.</h1>
     </div>
   );
 }
