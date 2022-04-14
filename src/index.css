@@ -24,6 +24,20 @@ h3 {
   color: hsl(240, 100%, 16.27%);
 }
 
+.App,
+.btn {
+  padding: 1rem;
+  margin: 0.5em;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  align-content: center;
+}
+
+.btn:hover {
+  background-color: hsl(234.55, 19.64%, 78.04%);
+}
+
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;

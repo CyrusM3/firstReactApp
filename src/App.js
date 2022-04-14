@@ -4,9 +4,10 @@ import "./App.css";
 function App() {
   return (
     <div className="App">
-      <h1>Hello Team mates.</h1>
-      <h2>We are Un4gettable!</h2>
-      <h3>Remember this.</h3>
+      <h1>Explore</h1>
+      <button class="btn">Gallery</button>
+      <button class="btn">Order</button>
+      <button class="btn">About us</button>
     </div>
   );
 }
