@@ -13,6 +13,7 @@
   --lightgrey: #d3d3d3;
   --grey: #808080;
   --white: #f8f8f8;
+  --pink: hsl(336.19, 100%, 50.59%);
 }
 
 ul {
@@ -22,6 +23,11 @@ ul {
 a {
   text-decoration: none;
   color: var(--white);
+  font-weight: 500;
+}
+
+a:hover {
+  color: var(--pink);
 }
 
 body {

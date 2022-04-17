@@ -14,10 +14,10 @@ const Navigation = () => {
           <a href="#">Home</a>
         </li>
         <li className="nav-item">
-          <a href="#">Product</a>
+          <a href="#">Travel Offer</a>
         </li>
         <li className="nav-item">
-          <a href="#">About</a>
+          <a href="#">Our Story</a>
         </li>
         <li className="nav-item">
           <a href="#">Contact</a>
