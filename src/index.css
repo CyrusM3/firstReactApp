@@ -44,6 +44,16 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
+h1 {
+  padding: 1rem;
+  font-size: 6rem;
+  color: #fff;
+}
+
+.text {
+  color: #6948ff;
+}
+
 .nav-menu {
   display: flex;
 }
