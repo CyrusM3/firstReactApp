@@ -6,7 +6,7 @@ import React from "react";
 const Navigation = () => {
   return (
     <div className="navbar">
-      <div className="hero">{/* <img src={hero} alt="hero image" /> */}</div>
+      <div className="hero"></div>
       <ul className="nav-menu">
         <li className="nav-item">
           <a href="#">Home</a>
