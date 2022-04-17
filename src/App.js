@@ -1,13 +1,11 @@
-// import logo from "./logo.svg";
-import "./App.css";
+/* eslint-disable jsx-a11y/anchor-is-valid */
+import React from "react";
+import Navigation from "./Components/Navigation";
 
 function App() {
   return (
     <div className="App">
-      <h1>Explore</h1>
-      <button class="btn">Gallery</button>
-      <button class="btn">Order</button>
-      <button class="btn">About us</button>
+      <Navigation />
     </div>
   );
 }

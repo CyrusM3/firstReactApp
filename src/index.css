@@ -1,7 +1,36 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --primary: #6948ff;
+  --secondary: #553bcb;
+  --darkgrey: #22262a;
+  --lightgrey: #d3d3d3;
+  --grey: #808080;
+  --white: #f8f8f8;
+}
+
+ul {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+  color: var(--white);
+}
+
 body {
-  width: 100vw;
+  display: flex;
+
+  width: 50vw;
   height: 100vh;
-  background-image: url(/src/hero.jpg);
+  font-family: "Montserrat", sans-serif;
+  background-image: url(/src/images/img2.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -15,30 +44,13 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
-h1,
-h2,
-h3 {
-  margin: 100px;
-  font-style: italic;
-  font-size: 3rem;
-  color: hsl(240, 100%, 16.27%);
-}
-
-.App,
-.btn {
-  padding: 1rem;
-  margin: 0.5em;
+.nav-menu {
   display: flex;
-  flex-direction: row;
+}
+
+.nav-item {
   align-items: center;
-  align-content: center;
-}
-
-.btn:hover {
-  background-color: hsl(234.55, 19.64%, 78.04%);
-}
-
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
-    monospace;
+  margin: 1.5rem;
+  font-size: 1.8rem;
+  justify-content: center;
 }
