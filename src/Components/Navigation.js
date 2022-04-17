@@ -11,13 +11,13 @@ const Navigation = () => {
       <div className="hero"></div>
       <ul className={click ? "nav-menu active" : "nav-menu"}>
         <li className="nav-item">
-          <a href="#">Home</a>
+          <a href="#">Travel</a>
         </li>
         <li className="nav-item">
-          <a href="#">Travel Offer</a>
+          <a href="#">Offer</a>
         </li>
         <li className="nav-item">
-          <a href="#">Our Story</a>
+          <a href="#">Story</a>
         </li>
         <li className="nav-item">
           <a href="#">Contact</a>
